@@ -65,8 +65,7 @@ h5 {
     background-image: url('Slike/rovinj.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
-    height: 773px;
+    height: 800px;
     min-height: 500px;
     min-width: 500px;
     box-shadow:inset 0 0 0 773px rgba(21, 69, 126, 0.4);
@@ -144,6 +143,7 @@ h5 {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
+    align-items: center;
     border: #4A1141;
 }
 
@@ -167,6 +167,7 @@ h5 {
 
 .fix-align {
     padding-top: 32px;
+
 }
 
 .plaze {
@@ -279,12 +280,19 @@ h5 {
     fill: #CDCDCD;
 }
 
+.triangle {
+    clip-path: polygon(0 0, 0 50%, 50% 100%, 100% 50%, 100% 0);
+    width: 100%;
+  }
+
+
 .dodatnov1 {
     background-color: #4A1141;
     color: white;
     height: 700px;
     text-align: center;
 }
+
 
 .dodatnov2 {
     background-color: #66335E;

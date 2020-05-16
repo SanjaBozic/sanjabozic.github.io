@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="hr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+        <title>infoRovinj</title>
+
+    </head>
+    <body>
+      <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-custom-first">
+            <div class="d-flex flex-grow-1">
+                <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+                <a class="navbar-brand d-lg-inline-block logo" href="index.html">
+                    <span style="color:#F0AC59">info</span><!-- comment for no space
+                    --><span style="color:#FFFFFF">Rovinj</span>
+                    
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse flex-grow-1 text-right about" >
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item">O nama</a>
+                    </li>
+                    <div class="different-color">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link m-2 menu-item">Iznajmljivači</a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="navbar fixed-top fixed-offset navbar-expand-lg navbar-custom-second">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-right" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="smjestaj">SMJEŠTAJ </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">INFORMACIJE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ZNAMENITOSTI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MORE I PLAŽE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ZABAVA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ROVINJSKE PRIČE</a>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+
+      </header>
+
+          <div class = "picture-smjestaj container-fluid">
+              <div class="container search-smjestaj d-none d-lg-block">
+                  <div class="naslov text-center">
+                    Pronađite smještaj <br>
+                    <span class="bold-naslov">u Rovinju</span>
+                  </div>
+
+                  <div class="row">
+                    <div class="col">
+                      <label for="lokacija"><i>lokacija</i></label><br>
+                      <input type="text" class="form-control " id="lokacija" placeholder="unesite željenu lokaciju">
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col">
+                      <label for="datum-dolaska"><i>datum dolaska</i></label><br>
+                      <input class="form-control" type="date" id="datum-dolaska">
+                    </div>
+                    <div class="col">
+                      <label for="datum-odlaska"><i>datum odlaska</i></label><br>
+                      <input class="form-control" type="date" id="datum-odlaska">
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col">
+                      <label for="broj-odraslih"><i>broj odraslih</i></label><br>
+                      <input class="form-control" type="number" value="1" id="broj-gostiju">
+                    </div>
+                    <div class="col">
+                      <label for="broj-djece"><i>broj djece</i></label><br>
+                      <input class="form-control" type="number" value="1" id="broj-gostiju">
+                    </div>
+                  </div>
+                  <div class="row mt-5">
+                    <div class="col text-center ">
+                        <button type="submit" class="btn btn-danger">PRETRAŽI</button>
+                    </div>
+                  </div>
+              </div>
+              </div>
+
+              <div class="container search d-block d-lg-none">
+                <div class="naslov text-center">
+                  Pronađite smještaj <br>
+                  <span class="bold-naslov">u Rovinju</span>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <label for="lokacija"><i>lokacija</i></label><br>
+                    <input type="text" class="form-control " id="lokacija" placeholder="unesite željenu lokaciju">
+                  </div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col">
+                    <label for="datum-dolaska"><i>datum dolaska</i></label><br>
+                    <input class="form-control" type="date" id="datum-dolaska">
+                  </div>
+                  <div class="col">
+                    <label for="datum-odlaska"><i>datum odlaska</i></label><br>
+                    <input class="form-control" type="date" id="datum-odlaska">
+                  </div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col">
+                    <label for="broj-odraslih"><i>broj odraslih</i></label><br>
+                    <input class="form-control" type="number" value="1" id="broj-gostiju">
+                  </div>
+                  <div class="col">
+                    <label for="broj-djece"><i>broj djece</i></label><br>
+                    <input class="form-control" type="number" value="1" id="broj-gostiju">
+                  </div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col text-center ">
+                      <button type="submit" class="btn btn-danger">PRETRAŽI</button>
+                  </div>
+                </div>
+                <div class="row mt-5">
+                </div>
+            </div>
+
+            <div class="filteri">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="podnaslov text-left">
+                    Razvrstaj po:
+                    </div>
+                  </div>
+                </div>
+                <div class="row ">
+                  <div class="col-md-3 col-sm-12 mt-4">
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>tip smještaja</option>
+                      <option>Apartman</option>
+                      <option>Apartman studio</option>
+                      <option>Soba</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3 col-sm-12 mt-4">
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>cijena smještaja</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3 col-sm-12 mt-4">
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>broj zvjezdica</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3 col-sm-12 mt-4" >
+                    <button type="button" class="btn btn-primary btn-lg button-align-smjestaj" >VIŠE FILTERA</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="row mt-5 mb-5">
+                <div class="col apartmani">
+                  APARTMANI
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="row oglas  mt-5">
+                <div class="col-md-3">
+                  <img src="Slike/apartman1.png" alt="apartman1" class="oglas-slika">
+                </div>
+                <div class="col-md-4 ">
+                  <p>apartman</p>
+                  <h4><a href="#">Apartman Bilajac</a></h4>
+                  <p>2 gosta - 1 spavaća soba - 2 kreveta <br>
+                    Besplatan parking - WiFi - Klima-uređaj</p>
+                </div>
+                <div class="col-md-3 text-right">
+                  <svg class="bi bi-star-fill full-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill full-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill full-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill empty-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill empty-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><br>
+
+                  <p><b class="bigger">60 €</b> po noćenju<br>
+                  ukupno 420 €</p>
+                </div>
+                <div class="col-md-2 d-none d-lg-block">
+                  <div id="map-container-google-2" class="z-depth-1-half map-container" >
+                    <iframe src="https://maps.google.com/maps?q=croatia+prolaz+Marije+Maretic+10&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                      style="border:0" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row oglas mt-5">
+                <div class="col-md-3">
+                  <img src="Slike/apartman2.png" alt="apartman2" class="oglas-slika">
+                </div>
+                <div class="col-md-4 ">
+                  <p>apartman</p>
+                  <h4><a href="#">Villa Bianca</a></h4>
+                  <p>2 gosta - 1 spavaća soba - 2 kreveta <br>
+                    Besplatan parking - WiFi - TV</p>
+                </div>
+                <div class="col-md-3 text-right">
+                  <svg class="bi bi-star-fill full-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill full-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill full-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill full-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill empty-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><br>
+
+                  <p><b class="bigger">150 €</b> po noćenju<br>
+                  ukupno 1050 €</p>
+                </div>
+                <div class="col-md-2 d-none d-lg-block">
+                  <div id="map-container-google-2" class="z-depth-1-half map-container" >
+                    <iframe src="https://maps.google.com/maps?q=croatia+pod+lukovima+9&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                      style="border:0" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row oglas mt-5">
+                <div class="col-md-3">
+                  <img src="Slike/apartman3.png" alt="apartman3" class="oglas-slika">
+                </div>
+                <div class="col-md-4 ">
+                  <p>apartman</p>
+                  <h4><a href="#">Apartman Silva</a></h4>
+                  <p>3 gosta - 1 spavaća soba - 3 kreveta <br>
+                    Besplatan parking - WiFi - Pogled na more</p>
+                </div>
+                <div class="col-md-3 text-right">
+                  <svg class="bi bi-star-fill full-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill full-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill full-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill empty-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill empty-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><br>
+
+                  <p><b class="bigger">65 €</b> po noćenju<br>
+                  ukupno 455 €</p>
+                </div>
+                <div class="col-md-2 d-none d-lg-block">
+                  <div id="map-container-google-2" class="z-depth-1-half map-container" >
+                    <iframe src="https://maps.google.com/maps?q=croatia+Zadra+Enocha+3+10&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                      style="border:0" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row oglas mt-5">
+                <div class="col-md-3">
+                  <img src="Slike/apartman4.png" alt="apartman4" class="oglas-slika">
+                </div>
+                <div class="col-md-4 ">
+                  <p>apartman</p>
+                  <h4><a href="#">Apartman Dana</a></h4>
+                  <p>3 gosta - 2 spavaća soba - 2 kreveta <br>
+                    Besplatan parking - WiFi - Klima-uređaj</p>
+                </div>
+                <div class="col-md-3 text-right">
+                  <svg class="bi bi-star-fill full-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill full-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill full-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill empty-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill empty-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><br>
+
+                  <p><b class="bigger">55 €</b> po noćenju<br>
+                  ukupno 385 €</p>
+                </div>
+                <div class="col-md-2 d-none d-lg-block">
+                  <div id="map-container-google-2" class="z-depth-1-half map-container" >
+                    <iframe src="https://maps.google.com/maps?q=croatia+Širole+Paje+Vitomira+17+Rovinj&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                      style="border:0" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row oglas mt-5 mb-5">
+                <div class="col-md-3">
+                  <img src="Slike/apartman5.png" alt="apartman5" class="oglas-slika">
+                </div>
+                <div class="col-md-4 ">
+                  <p>apartman</p>
+                  <h4><a href="#">Apartman Sanja</a></h4>
+                  <p>4 gosta - 3 spavaća soba - 3 kreveta <br>
+                    Besplatan parking - WiFi - Klima-uređaj</p>
+                </div>
+                <div class="col-md-3 text-right">
+                  <svg class="bi bi-star-fill full-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill full-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill full-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill empty-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg class="bi bi-star-fill empty-star" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg><br>
+
+                  <p><b class="bigger">72 €</b> po noćenju<br>
+                  ukupno 504 €</p>
+                </div>
+                <div class="col-md-2 d-none d-lg-block">
+                  <div id="map-container-google-2" class="z-depth-1-half map-container" >
+                    <iframe src="https://maps.google.com/maps?q=croatia+Istarska+ulica+47+Rovinj&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                      style="border:0" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container text-center">
+              <ul class="pagination ">
+                            <li class="disabled"><a href="#">«</a></li>
+                            <li class="active"><a href="#" class="active">1 <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">...</a></li>
+                            <li><a href="#">15</a></li>
+                            <li><a href="#">»</a></li>
+                          </ul>
+              </div>
+       
+
+      <footer>
+        <div class="footer mt-5">
+          <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                  <a href="#"><h5>Smještaj</h5></a>
+                  <p>
+                    <a href="#">Moj izbor </a> <br>
+                    <a href="#">Privatan smještaj </a> <br>
+                    <a href="#">Ostali smještaj</a>
+                  </p>
+                </div>
+                <div class="col-sm">
+                  <a href="#"><h5>Informacije</h5></a>
+                  <p>
+                    <a href="#">Parkirališta </a> <br>
+                    <a href="#">Rovinjska tržnica </a> <br>
+                    <a href="#">WiFi u Rovinju</a><br>
+                    <a href="#">Venecija </a> <br>
+                    <a href="#">Gradski prijevoz </a> <br>
+                    <a href="#">Za nautičare</a><br>
+                    <a href="#">Zdravstvena zaštita</a>
+                  </p>
+                </div>
+                <div class="col-sm">
+                  <a href="#"><h5>Znamenitosti</h5></a>
+                  <p>
+                    <a href="#">Parkovi i rezervati</a> <br>
+                    <a href="#">Povijest Rovinja </a> <br>
+                    <a href="#">Crkve i samostani</a> <br>
+                    <a href="#">Kulturne manifestacije</a> <br>
+                    <a href="#">Fotogalerija </a> 
+                </div>
+                <div class="col-sm">
+                  <a href="#"><h5>More i plaže</h5></a>
+                  <p>
+                    <a href="#">Plaže </a> <br>
+                    <a href="#">Ribarska tradicija</a> <br>
+                    <a href="#">Život u moru</a>
+                </div>
+                <div class="col-sm">
+                  <a href="#"><h5>Zabava</h5></a>
+                  <p>
+                    <a href="#">Caffee Bars </a> <br>
+                    <a href="#">Koncerti </a> <br>
+                    <a href="#">Rovinj Summer Salsa Festival</a> <br>
+                    <a href="#">Entertainment Center Monvi</a> 
+                </div>
+                <div class="col-sm">
+                  <a href="#"><h5>Rovinjske priče</h5></a>
+                  <p>
+                    <a href="#">Priča o bombi </a> <br>
+                    <a href="#">Otok magaraca </a> <br>
+                    <a href="#">Poruka u boci</a> <br>
+                    <a href="#">Tri luckyih priča I </a> <br>
+                    <a href="#">Tri luckyih priča II </a> <br>
+                    <a href="#">Tri luckyih priča III</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </footer>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

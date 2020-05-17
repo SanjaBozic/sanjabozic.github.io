@@ -70,10 +70,9 @@
         </nav>
 
       </header>
-
           <div class = "picture drop-shadow container-fluid">
 
-            <div class="container naslov container-fluid">
+            <div class=" naslov container">
               <div class="row">
                   <div class="col-sm">
                     Turistički vodić <br>
@@ -81,24 +80,27 @@
                   </div>
               </div>
             </div>
-            <div class="container container-fluid">
+            <div class="container">
               <div class="row">
                   <div class="col-sm opis">
                     Svojim promotivnim ali i edukativnim radom, energijom i entuzijazmom pomogli smo mnogim iznajmljivačima da prihvate Internet kao moderan način turističkog poslovanja.
                   </div>
-                  <div class="col-sm opis">
+                  <div class="col-sm opis d-none d-lg-block">
                     Osim ponude privatnog smještaja, na našim stranicama možete pronaći i kompletan popis hotela, kampova i turističkih naselja.
                     </div>
               </div>
               <div class="row">
-                <div class="col-sm buttons">
+                <div class="col-sm buttons mb-3">
                   <button type="button" class="btn btn-primary btn-lg button-align"  onclick="location.href='smjestaj.html'">PRIVATNI SMJEŠTAJ</button>
-                  <button type="button" class="btn btn-secondary btn-lg">KONTAKT</button>
+                  
                 </div>
+                <div class="col-sm buttons  d-none d-lg-block ">
+                <button type="button" class="btn btn-secondary btn-lg">KONTAKT</button>
+              </div>
             </div>
 
             </div>
-              <div class="container search">
+              <div class="container search d-none d-lg-block">
                 <div class="row">
                     <div class="col-sm">
                       <p class="search-naslov">Pretraga smještaja</p>
@@ -106,41 +108,84 @@
                 </div>
 
                   <div class="form-row">
-                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+                    <div class="col-md-3 col-lg-3 ">
                       <label for="lokacija"><i>lokacija</i></label><br>
                       <input type="text" class="form-control " id="lokacija" placeholder="unesite željenu lokaciju">
                     </div>
-                    <div class="d-none d-md-block col-md-2 col-lg-2 ">
+                    <div class="col-md-2 col-lg-2 ">
                       <label for="datum-dolaska"><i>datum dolaska</i></label><br>
                       <input class="form-control" type="date" id="datum-dolaska">
                     </div>
-                    <div class=" d-none d-md-block col-md-2 col-lg-2 ">
+                    <div class="col-md-2 col-lg-2 ">
                       <label for="datum-odlaska"><i>datum odlaska</i></label><br>
                       <input class="form-control" type="date" id="datum-odlaska">
                     </div>
-                    <div class="d-none d-md-block col-md-3 col-lg-3 ">
+                    <div class="col-md-3 col-lg-3 ">
                       <label for="broj-gostiju"><i>broj gosti</i></label><br>
                       <input class="form-control" type="number" value="1" id="broj-gostiju">
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 fix-align text-center">
+                    <div class="col-md-2 col-lg-2 fix-align text-center">
                         <button type="submit" class="btn btn-danger"  onclick="location.href='smjestaj.html'">PRETRAŽI</button>
                     </div>
                 
                   
                 </div>
+                
 
               </div>
+            </div>
+
+
+            <div class="container search d-block d-lg-none">
+              <div class="row">
+                  <div class="col mt-3">
+                    <p class="search-naslov">Pretraga smještaja</p>
+                  </div>
+              </div>
+
+                <div class="row">
+                  <div class="col mt-3">
+                    <label for="lokacija"><i>lokacija</i></label><br>
+                    <input type="text" class="form-control " id="lokacija" placeholder="unesite željenu lokaciju">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col mt-3">
+                    <label for="datum-dolaska"><i>datum dolaska</i></label><br>
+                    <input class="form-control" type="date" id="datum-dolaska">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col mt-3">
+                    <label for="datum-odlaska"><i>datum odlaska</i></label><br>
+                    <input class="form-control" type="date" id="datum-odlaska">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col mt-3">
+                    <label for="broj-gostiju"><i>broj gosti</i></label><br>
+                    <input class="form-control" type="number" value="1" id="broj-gostiju">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col mt-3 mb-3 text-center">
+                      <button type="submit" class="btn btn-danger"  onclick="location.href='smjestaj.html'">PRETRAŽI</button>
+                  </div>
+                </div>
+              </div>
+              
+
             
-        <div class="container-fluid">
+        <div class="container-fluid d-none d-lg-block">
             <div class="row">
-                <div class="col-sm mt-5">
+                <div class="col-sm height">
                 </div>
             </div>
         </div>
 
-        <div class="container mb-5 container-fluid">
+        <div class="container mb-5 mt-5 container-fluid">
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-lg-4">
                 <div class="thumbnail">
                     <img src="Slike/plaza.jpg" alt="plaza" style="width: 100%;">
                     <div class="caption plaze">
@@ -151,7 +196,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-lg-4">
                 <div class="thumbnail">
                     <img src="Slike/znamenitosti.jpg" alt="znamenitosti" style="width: 100%;">
                     <div class="caption znamenitosti">
@@ -162,7 +207,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-lg-4">
                 <div class="thumbnail">
                     <img src="Slike/tradicija.jpg" alt="tradicija" style="width: 100%;">
                     <div class="caption tradicija">
@@ -185,13 +230,13 @@
                   <p class="galerija-opis">Rovinj je neicrpan izvor prekrasnih fotografija. Izbor naših fotografija Rovinja koje su nastale u zadnjih nekoliko godina naći ćete u našoj Foto galeriji.</p>
                   <button type="button" class="btn btn-primary btn-lg button-align">POGLEDAJ GALERIJU</button>
                 </div>
-                <div class="col-sm d-none d-md-block ">
+                <div class="col-sm d-none d-lg-block ">
                     <img src="Slike/rovinj1.png" alt="plaza" class="pozicijav1">
                 </div>
-                <div class="col-sm d-none d-md-block">
+                <div class="col-sm d-none d-lg-block">
                     <img src="Slike/rovinj2.png" alt="plaza" class="pozicijav2">
                 </div>
-                <div class="col-sm d-none d-md-block">
+                <div class="col-sm d-none d-lg-block">
                     <img src="Slike/rovinj3.png" alt="plaza" class="pozicijav1">
                 </div>
               </div>
@@ -407,7 +452,7 @@
               </div>
             </div>
           </div>
-      </div>
+
     </footer>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -415,3 +460,4 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>
+

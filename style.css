@@ -427,13 +427,12 @@ h3 {
     background-image: 
     url(Slike/pozadina1.png),
     url(Slike/pozadina2.png);
-    background-position:
-    left bottom, right top;
-    background-repeat:
-    no-repeat; 
+    background-position: left top, right top;
+    background-repeat: no-repeat; 
     background-size: 50%;
     margin-top: 130px;
     height: 800px;
+    width: 100%;
   } 
 
   .apartman {
@@ -542,6 +541,28 @@ h3 {
     background-color: #F3F3F3;
     color: black;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+}
+
+.gallery
+{
+    background-image: linear-gradient(to bottom, rgba(240,175, 94, 0.37), rgba(240,175, 94, 0.37)), url("Slike/stan4.png");
+    background-image: -moz-linear-gradient(top, rgba(240,175, 94, 0.37), rgba(240,175, 94, 0.37)), url("Slike/stan4.png");
+    background-image: -o-linear-gradient(top, rgba(240,175, 94, 0.37), rgba(240,175, 94, 0.37)), url("Slike/stan4.png");
+    background-image: -ms-linear-gradient(top, rgba(240,175, 94, 0.37), rgba(240,175, 94, 0.37)), url("Slike/stan4.png");
+    background-image: -webkit-linear-gradient(top, rgba(240,175, 94, 0.37), rgba(240,175, 94, 0.37)), url("Slike/stan4.png");
+    color: #000;
+    width: 100%;
+    height: 100%;
+    min-height: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.gallery a
+{
+    position: relative;
+    top:30%;
+    color: #000;
 }
 
 

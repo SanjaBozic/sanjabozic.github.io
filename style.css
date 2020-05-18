@@ -20,6 +20,10 @@ h4 a {
     color: black;
 }
 
+h3 {
+    display: inline;
+}
+
 .navbar-custom-first{
     background-color: #59114D;
     font-weight: bold;
@@ -417,6 +421,196 @@ h4 a {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
 }
 
-.background {
-    background-color: #59114D;
+/*OGLAS STRANICA*/
+
+.picture-oglas {
+    background-image: 
+    url(Slike/pozadina1.png),
+    url(Slike/pozadina2.png);
+    background-position:
+    left bottom, right top;
+    background-repeat:
+    no-repeat; 
+    background-size: 50%;
+    margin-top: 130px;
+    height: 800px;
+  } 
+
+  .apartman {
+    background-color: #F3F3F3;
+    height: 50%;
+    color: black;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    padding-left: 30px;
+  }
+
+  .apartman-xs {
+    background-color: #F3F3F3;
+    height: 50%;
+    color: black;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    padding-left: 30px;
+    margin-top: 200px;
+  }
+
+.height-oglas{
+    height: 200px;
+}
+
+  .space {
+    
+      height: 600px;
+  }
+
+  .mapa {
+      padding-top: 150px;
+  }
+
+  .opis-oglas {
+    color: black;
+  }
+
+.ikone-oglas {
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.ikone-oglas-osoba {
+    margin-bottom: 20px;
+    width: 190px;
+    height: 80px;
+}
+
+.povrsina {
+    margin-bottom: 34px;
+}
+
+.check {
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+.usluge {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style-type:none;
+}
+
+.dodatne-usluge {
+    list-style-type:none;
+}
+
+.arrow-left {
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 0; 
+    height: 0; 
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid #F0AC59;
+  }
+
+  .arrow-right {
+    position: absolute;
+    top: 50%;
+    margin:0;
+    display: inline-block;
+    width: 0; 
+    height: 0; 
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid #F0AC59;
+  }
+
+  .right {
+    float: right;
+  }
+
+  
+.parallelogram {
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background-color: red;
+}
+
+.background-gray {
+    background-color: #F3F3F3;
+    color: black;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+/*KALENDAR*/
+
+
+.kutija {
+    width:315px; 
+    overflow:hidden; 
+    margin-bottom:10px; 
+    margin:0 auto;
+  }
+  
+  .mjesec {
+    font:18px; 
+    font-weight:lighter; 
+    color:#000000; 
+    display:block; 
+    margin:18px 0 0 0; 
+    text-align:center; 
+    font-style: italic;
+  }
+  
+  .dani span {
+    font:11px; 
+    background-color: #F3F3F3;
+    font-weight:400; 
+    color:#000000; 
+    text-align:center; 
+    width:40px; 
+    display: block;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    height:40px; 
+    float: left; 
+    overflow:hidden; 
+    line-height:40px;
+  }
+  
+.vikend {
+    background-color: #FDF6ED !important;
+}
+
+.rezervirano {
+    color: red !important;
+}
+
+/*PARALELOGRAM*/
+
+.diagonal {
+	background-color: #FDF6ED;
+	transform: skewX(30deg);
+}
+
+.diagonal-text {
+	transform: skewX(-30deg);
+}
+
+.diagonal-udaljenost {
+	width: 100px;
+	height: 200px;
+	background-color: #FDF6ED;
+	transform: skewX(20deg);
+    transform-origin: top;
+    margin-top: 10px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.diagonal-text-udaljenost {
+	transform: skewX(-20deg);
 }
